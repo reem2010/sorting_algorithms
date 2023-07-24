@@ -32,15 +32,17 @@ void quick(int *array, size_t start, size_t end, size_t size)
 		if (array[i] < pivot)
 		{
 			p++;
-			tmp = array[i];
-			array[i] = array[p];
-			array[p] = tmp;
-			if (i != p)
+			if (array[i] != array[p])
+			{
+				tmp = array[i];
+				array[i] = array[p];
+				array[p] = tmp;
 				print_array(array, size);
+			}
 		}
 	}
 	p++;
-	if (p != end)
+	if (array[p] != array[end])
 	{
 		array[end] = array[p];
 		array[p] = pivot;

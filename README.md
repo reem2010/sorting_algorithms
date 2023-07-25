@@ -1,1 +1,1 @@
-C - Sorting algorithms & Big-O which important
+C - Sorting algorithms & Big-O

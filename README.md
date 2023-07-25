@@ -1,1 +1,1 @@
-C - Sorting algorithms & Big-O, essential task
+C - Sorting algorithms & Big-O which is so essential
